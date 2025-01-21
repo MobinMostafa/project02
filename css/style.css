@@ -71,6 +71,10 @@ img{
     max-width: 100%; 
     display: block;
 }
+.p-38{
+    padding-left: 38.35px;
+    padding-right: 38.35px;
+}
 .btn{
     color: var(--white);
     font-family: var(--font-primary);
@@ -413,3 +417,105 @@ img{
 
 
 /* standard css end */
+
+ /* story css start  */
+ .story{
+    background:url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.story-container{
+    padding: 60px 0;
+    gap: 80px;
+}
+@media (max-width: 576px) {
+    .story-container{
+        padding: 40px 0;
+        gap:20px
+    }
+}
+.story-box-container{
+    gap: 19px;
+}
+ .story-box-left{
+    width:33.767rem;
+    height:39.408rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background:#fff;
+    position: relative;
+ }
+ .story-image{
+  width: 100%;
+  height: 21.063;
+}
+.story-image img{
+ border-radius: 16px 16px 0 0;
+}
+.story-title{
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.397rem;
+  margin-top:61.51px;
+}
+.story-description{
+  font-family: var(--font-secondary);
+  font-size: 0.959rem;
+  font-weight: 500;
+  line-height: 1.798rem;
+  color: #666666;
+  margin-top:51.77px;
+}
+.date{
+    position: absolute;
+    top:50%;
+    color: rgb(255, 255, 255);
+    font: family var(--font-secondary);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    text-transform: capitalize;
+    padding: 0.5rem 1.5rem;
+    left: 38.35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47.93px;
+}
+.date-1{
+    background: rgb(60, 216, 232);
+}
+.date-2{
+    background-color: #95B226;
+}
+.date-3{
+    background-color: #5D58F0;
+}
+
+.story-box-right{
+    gap:1.212rem;
+}
+.story-box-bottom-container,.story-box-top-container{
+    gap: 1.198rem;
+} 
+.story-right-box{
+  background: #fff;
+  border-radius: 16px;
+  width:18.168rem;
+  height: 18.851rem;
+  position: relative;
+}
+.s-r-title{
+    font-family:var(--font-primary);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    padding-left: 37.91px;
+    padding-top: 43.12px;
+    color: var(--section-title-color);
+}   
+ /* story css end  */
