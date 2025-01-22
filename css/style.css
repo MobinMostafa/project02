@@ -162,6 +162,10 @@ img{
     padding: .5rem 0;
 }
 .marquee-container .marquee-text{
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 700;
   margin-bottom: .5rem;
 }
 .marq-1{
@@ -173,6 +177,11 @@ img{
 .marq-3{
     color: var(--purple);
 }	
+@media (max-width: 576px) {
+    .marquee-text{
+        margin-bottom: .5rem;
+      }
+}
 /* marquee-container edn */
 
 /* header css start  */
