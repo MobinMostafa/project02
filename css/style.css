@@ -353,6 +353,10 @@ img{
     border: 0.94px solid rgb(242, 232, 255);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
+.box-icon{
+    width: 125.41px;
+    height: 126.1px;
+}
 
 .box-title{
     font-family: var(--font-primary);
@@ -410,6 +414,10 @@ img{
         width:100%;
         height: 324.47px;
         padding: 36px 28px;
+    }
+    .box-icon{
+        width: 89.78px;
+        height: 91.54px;
     }
     .box-title{
         font-size:1.038rem;
