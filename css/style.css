@@ -212,7 +212,7 @@ img{
     flex-direction: column;
     gap: 10px;
     position: absolute;
-    top: 14%;
+    top: 25%;
     left: 0;
     right: 0;
     background-color: var(--white);
@@ -426,7 +426,11 @@ img{
     justify-content: center;
     align-items: center;
 }
-.cricle-one{
+.btn-circle:hover{
+    background-color: var(--sky-blue);
+}
+
+.circle-one{
    margin-right: 10px;
 }
 
