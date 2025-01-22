@@ -156,12 +156,28 @@ img{
  
 }
 /* utilities css end  */
-
+/* marquee-container start */
+.marquee-container{
+  
+    padding: .5rem 0;
+}
+.marquee-container .marquee-text{
+  margin-bottom: .5rem;
+}
+.marq-1{
+    color: var(--orange);
+}
+.marq-2{
+    color: var(--sky-blue);
+}
+.marq-3{
+    color: var(--purple);
+}	
+/* marquee-container edn */
 
 /* header css start  */
   
 .header {
-  
     padding: 1.25rem;
     background-color: var(--white);
 }
@@ -585,7 +601,7 @@ img{
  /* footer css start  */
  .footer{
   background: var(--sky-blue);
-  padding: 123px 0;
+  padding: 100px 0;
 }
 
  .w-50{
